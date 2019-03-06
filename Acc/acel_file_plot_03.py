@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: cp1252 -*-   ¡¡¡ OK !!!
+# -*- coding: cp1252 -*-   Â¡Â¡Â¡ OK !!!
 # Program acel_file_plot_03.py
 # Program acel_file_plot_02.py modified:
 # - Corrects signal and FFT scaling.
