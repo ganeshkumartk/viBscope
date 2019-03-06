@@ -8,7 +8,7 @@
 # VibScope
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
-//Done as a course project MEC320T - Sensors & Control//
+//  Done as a course project MEC320T - Sensors & Control   //
 
 
 ## Table of contents
