@@ -120,11 +120,9 @@ Project is: _in progress_ !
 
 # Collabrations
 
-'''
-Ganesh Kumar T K (MSM17B034)
-Dhilipan S (MSM17B002)
-Chandralekha R (MSM17B027)
-'''
+     Ganesh Kumar T K (MSM17B034)
+     Dhilipan S (MSM17B002)
+     Chandralekha R (MSM17B027)
 
 ## Contact
 Created by [@coderganesh](https://github.com/CoDeRgAnEsH) - feel free to contact me!
