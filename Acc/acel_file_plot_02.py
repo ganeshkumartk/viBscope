@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: cp1252 -*-
-# Program acel_file_plot_02.py    ¡¡¡ OK !!!
+# Program acel_file_plot_02.py    Â¡Â¡Â¡ OK !!!
 # Program acel_file_plot_01.py modified:
 # - Tkes the samples media value to substract as offset DC.
 # Program acel_file_plot_01.py
