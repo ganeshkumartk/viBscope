@@ -8,7 +8,8 @@
 # - Serial communication with microcontroller.
 # - Serial port selection.
 # - RadioButtons to select a Window function to apply.
-# 13/07/2016
+# 13/02/2019
+# vIbscope
 
 import matplotlib
 matplotlib.use('TkAgg')
