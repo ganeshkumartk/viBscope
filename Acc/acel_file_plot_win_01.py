@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: cp1252 -*-
-# Program acel_file_plot_win_01.py   ¡¡¡ OK !!!
+# Program acel_file_plot_win_01.py   Â¡Â¡Â¡ OK !!!
 # Program acel_file_plot_03.py modified:
 # - Window funcions added.
 # 09/06/2016
