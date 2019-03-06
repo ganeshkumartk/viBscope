@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: cp1252 -*-
-# Program serial_avr_01.py     ¡¡¡ OK !!!
+# Program serial_avr_01.py     Â¡Â¡Â¡ OK !!!
 # Recives data on serial port and separats packets.
 # Saves data on file.
 # vIbscope
@@ -100,7 +100,7 @@ while conta_datos_rx < datos_a_leer:
             conta_datos_rx += 1 ;
             #print("conta_datos_rx =  %s" %conta_datos_rx)
 
-    #time.sleep(0.001)   #Sin esta línea, el programa consume 90% de recursos CPU    
+    #time.sleep(0.001)   #Sin esta lÃ­nea, el programa consume 90% de recursos CPU    
     #Cuando la velocidad del puerto serial es alta y se recibe una gran cantidad 
     #de datos, time.sleep() impone un tiempo demasiado largo.
 
