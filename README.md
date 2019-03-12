@@ -1,9 +1,3 @@
-
-<p align="center">
-
-</p>
-
-
 <h1 align="center"> VibScope </h1> <br>
 <p align="center">
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
@@ -52,6 +46,7 @@
   </a>-->
 </p>
  
+ 
 [![Build status of the master branch on Linux/OSX](https://img.shields.io/travis/Martinsos/edlib/master.svg?label=Linux%20%2F%20OSX%20build)](https://travis-ci.org/Martinsos/edlib)
 [![Build status of the master branch on Windows](https://img.shields.io/appveyor/ci/Martinsos/edlib.svg?label=Windows%20build)](https://ci.appveyor.com/project/Martinsos/edlib/branch/master)
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)😃
@@ -81,6 +76,7 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ===== -->
+
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
 
