@@ -1,16 +1,10 @@
 
-
-
-
-
-
-
 <p align="center">
 
 </p>
 
 
-<h1 align="center"> Vibrational Analyser </h1> <br>
+<h1 align="center"> VibScope </h1> <br>
 <p align="center">
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
   </a>
@@ -75,7 +69,7 @@
 </p>
 
 
-# VibScope
+# Vibrational Analyser
 <!--
 &middot;
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
