@@ -3,9 +3,7 @@
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
   </a>
 </p>
-<p align="center">
-  :steam_locomotive::train::train::train::train::train:
-</p>
+
 <p align="center">
   <strong>//  Done as a course project MEC320T - Sensors & Control   //</strong>
 </p>
@@ -46,15 +44,6 @@
   </a>-->
 </p>
  
- 
-[![Build status of the master branch on Linux/OSX](https://img.shields.io/travis/Martinsos/edlib/master.svg?label=Linux%20%2F%20OSX%20build)](https://travis-ci.org/Martinsos/edlib)
-[![Build status of the master branch on Windows](https://img.shields.io/appveyor/ci/Martinsos/edlib.svg?label=Windows%20build)](https://ci.appveyor.com/project/Martinsos/edlib/branch/master)
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)😃
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/anfederico/Clairvoyant/issues)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg) 
-===========
-
 
 <p align="center">
   <sub>The little that we could. Built with ❤︎ by
@@ -65,17 +54,6 @@
 
 
 # Vibrational Analyser
-<!--
-&middot;
-[![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
-[![Build status of the master branch on Linux/OSX](https://img.shields.io/travis/Martinsos/edlib/master.svg?label=Linux%20%2F%20OSX%20build)](https://travis-ci.org/Martinsos/edlib)
-[![Build status of the master branch on Windows](https://img.shields.io/appveyor/ci/Martinsos/edlib.svg?label=Windows%20build)](https://ci.appveyor.com/project/Martinsos/edlib/branch/master)
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/anfederico/Clairvoyant/issues)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-===== -->
 
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
