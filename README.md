@@ -1,61 +1,14 @@
-<h1 align="center"> VibScope </h1> <br>
+<h1 align="center"> Vibrational Analyser </h1> <br>
 <p align="center">
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
   </a>
 </p>
 
-<p align="center">
-  <strong>//  Done as a course project MEC320T - Sensors & Control   //</strong>
-</p>
 
-<br />
-
-
-<p align="center">
-  <!-- Stability -->
-  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
-    <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
-      alt="API stability" />
-  </a>
-  <!-- NPM version -->
-  <!--<a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/v/choo.svg?style=flat-square"
-      alt="NPM version" />
-  </a>
-  <!-- Build Status 
-  <a href="https://travis-ci.org/choojs/choo">
-    <img src="https://img.shields.io/travis/choojs/choo/master.svg?style=flat-square"
-      alt="Build Status" /-->
-  </a>
-  <!-- Test Coverage -->
-  <a href="https://codecov.io/github/choojs/choo">
-    <img src="https://img.shields.io/codecov/c/github/choojs/choo/master.svg?style=flat-square"
-      alt="Test Coverage" />
-  </a>
-  <!-- Downloads
-  <a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/dt/choo.svg?style=flat-square"
-      alt="Download" />
-  </a>
-  <!-- Standard
-  <a href="https://standardjs.com">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
-      alt="Standard" />
-  </a>-->
-</p>
- 
-
-<p align="center">
-  <sub>The little that we could. Built with ❤︎ by
-  <a href="https://github.com/CoDeRgAnEsh">Ganesh Kumar T K</a> and
-    contributors
-  </a>
-</p>
-
-
-# Vibrational Analyser
-
+# VibScope
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
+
+//Done as a course project MEC320T - Sensors & Control//
 
 
 ## Table of contents
@@ -170,9 +123,6 @@ Project is: _in progress_ !
      Ganesh Kumar T K (MSM17B034)
      Dhilipan S (MSM17B002)
      Chandralekha R (MSM17B027)
-
-# Gallery
-View Our Work snaps from [here](https://drive.google.com/drive/folders/1brYf8YWGJxZcrrcRJvZ1mOswZXJb9st3?usp=sharing)
 
 ## Contact
 Created by [@coderganesh](https://github.com/CoDeRgAnEsH) - feel free to contact me!
