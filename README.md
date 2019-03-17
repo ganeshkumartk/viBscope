@@ -18,6 +18,7 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
+* [Gallery](#gallery)
 * [Collabrations](#collabrations)
 * [Contact](#contact)
 
@@ -117,6 +118,9 @@ To-do list:
 
 ## Status
 Project is: _in progress_ !
+
+## Gallery
+Check out the Snaps from [here](https://drive.google.com/open?id=1brYf8YWGJxZcrrcRJvZ1mOswZXJb9st3)
 
 # Collabrations
 
