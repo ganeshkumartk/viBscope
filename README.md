@@ -1,11 +1,11 @@
-<h1 align="center"> Vibrational Analyser </h1> <br>
+<h1 align="center"> VibScope </h1> <br>
 <p align="center">
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
   </a>
 </p>
 
 
-# VibScope
+# Vibrational Analyser
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
 //Done as a course project MEC320T - Sensors & Control//
@@ -15,6 +15,7 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 * [Objective](#objective)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [Bill of Materials](#bill-of-materials)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -24,7 +25,7 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 
 # Objective
 
-* To design a low cost alternative to vibration monitor and spectrum  analyzer using the Raspberry Pi microcomputer and 3-axis digital MEMS ADXL345 accelerometer.
+* To design a low cost alternative to vibration monitor and spectrum  analyzer using the Raspberry Pi microcomputer and 3-axis digital MEMS MPU6050 accelerometer.
 * To study if inexpensive vibration monitoring systems could be suitable for condition monitoring
 * To highlight  the  impact  of  different components  of  the  signal  chain  to  the  measured  vibration  signal  itself  and  familiarize the reader with the signal chain found in vibration monitoring. 
 * To analyze vibration parameters in order to predict and prevent possible accidents, thus reducing the costs associated with the failure of the cutting tools, expensive parts and assemblies of the CNC machine.
@@ -39,6 +40,18 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 ## Technologies
 * Python & Matlab
 * IoT integration
+
+## Bill of materials
+
+ ### Electronic components 
+
+| Component             |        Description       |     Source      |                          Price (Rs.)                            |
+| -------------         |:-------------:           |:-----:          | -----:                                                    |
+| Raspberry Pi 3 Model B   | Version 1.2              |[Amazon](https://www.amazon.in/Raspberry-Pi-Model-RASP-PI-3-Motherboard/dp/B01CD5VC92/)|       2750            |
+| MicroSD Card   | 8GB              |[Amazon](https://www.amazon.in/Kingston-Class-Micro-SDHC-Memory/dp/B007W0NFCG)|       230            |
+| SD Card Reader   | SD card adapter for writing   |[Amazon](https://www.amazon.in/i2choose-Quantum-5570-Card-Reader/dp/B073SWMV1G)|       40            |
+| Jumper wires (F-F)             | Connects the RPi to Sensor |Local shop | 30 /10 wires |
+| MPU6050         | Accelerometer and Gyroscope     |[Sparkfun](https://www.sparkfun.com/products/11028)  |   190       |
 
 ## Setup
 Description on how to install / setup in your local environement.
