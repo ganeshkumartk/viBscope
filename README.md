@@ -16,6 +16,7 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Bill of Materials](#bill-of-materials)
+* [Getting Started](#getting-started)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -53,25 +54,122 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 | Jumper wires (F-F)             | Connects the RPi to Sensor |Local shop | 30 /10 wires |
 | MPU6050         | Accelerometer and Gyroscope     |[Sparkfun](https://www.sparkfun.com/products/11028)  |   190       |
 
-## Setup
-Description on how to install / setup in your local environement.
+## Getting started
+Let's get started! First thing first, solder the MPU6050 with breakout board pins and connect to the Raspberry Pi for the best results. Other means of connection, such as jumper wires or connectors are discouraged as they might disconnect during usage. 
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Python2.7 0r 3.5](https://www.python.org/) (which comes with [numpy & scipy](https://pypi.org/) installed on your computer. From your command line:
+Now, we are also going to need a few tools, so downloading them now is a good idea.
+
+### Tools
+- [Etcher](https://etcher.io/) - SD Card flasher
+- [Advanced IP Scanner](https://www.advanced-ip-scanner.com) - IP Scanner
+- [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) - SSH client
+- [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) - RDP client
+
+
+### Raspbian Jessie Lite
+
+Download and flash [Raspbian Jessie Lite](http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-07-05/2017-07-05-raspbian-jessie-lite.zip) on a micro SD card (preferably a 8GB one) with [Etcher](https://etcher.io/), or an alternative flasher. We will be using the lite version of Raspbian since we will not need a video output or many of the software packages that come with the Desktop version. 
+
+After flashing the OS on the SD card, we need to enable the SSH server and connect it to a Wireless Access Point in order to communicate with it. Open the micro SD card directory from your File Explorer and create an empty file called ***ssh***. 
+Create another file called ***wpa_supplicant.conf*** with the following text:
+
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+    ssid="YOUR_SSID"
+    psk="YOUR_PASSWORD"
+    key_mgmt=WPA-PSK
+}
+```
+Where *YOUR_SSID* and *YOUR_PASSWORD* are the SSID and Password of your WiFi router.
+
+This is what your /boot directory should look like now
+<img src="/Resources/ssh_wpa.jpg" alt="Boot directory">
+
+The Raspberry Pi Zero W on boot will read these two files and automatically enable the SSH server and connect it to your WiFi router.
+
+Now eject the micro SD card, put it in the Raspberry and power it on with a micro USB cable.
+
+Now your Pi should have connected to your router, and we need to find out its IP address. An easy way to do this is to use [Advanced IP Scanner](https://www.advanced-ip-scanner.com).
+<img src="/Resources/ip_scanner.jpg" alt="IP scan">
+
+Now that we have found out the IP address, let's SSH into it. We'll use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for that.
+<img src="/Resources/putty.jpg" alt="Putty">
+
+You'll be asked username and password. 
+<img src="/Resources/login.jpg" alt="Putty login">
+
+The default user name is:
+```
+pi
+```
+And the default password is:
+```
+raspberry
+```
+Now you should be logged in. It is advised to change these credentials for safety reasons.
+<img src="/Resources/logged_in.jpg" alt="Putty logged in">
+
+We're all set! Let's move forwards by installing some essentials modules.
+
+**Note that all the following commands will be executed on the Raspberry Pi Zero W through the Putty SSH session.**
+
+---
+### Python
+Python will be used to read from the sensors and transmit the data to Node-RED via mqtt
+```
+sudo apt-get install python-2.7 python-pip
+```
+Now let's install the Scipy, Numpy, Matplotlib and pyplot library for Python
+```
+sudo apt-get install build-essential gfortran libatlas-base-dev python-pip python-dev
+sudo pip install --upgrade pip
+sudo apt install python-numpy python-scipy python-matplotlib
+```
+In order to read from the I2C from Python, we need to install the smbus module
+```
+sudo apt-get install python-smbus
+```
+This library is needed so that Python can read from the MPU6050 sensor
+```
+sudo apt-get install build-essential python-pip python-dev python-smbus git
+sudo pip install mpu6050-raspberrypi
+```
+---
+
+## Setup
+ 
+ Clone this repository in your /home/pi directory of your Raspberry Pi.
+ 
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/CoDeRgAnEsh/viBscope
-
-# Go into the repository
-$ cd "Python_35" //if Python 3.5.6 is installed in your computer
-
-# Install dependencies
-$ sudo apt-get install python-numpy python-scipay
-
-# Run the app
-$ python3.5 fft_spectrum_gui_3can_py3_01.py
 ```
+ To run the program for callibrating MPU6050 accerleometer, open the *Src* folder
+```
+cd /home/pi/vibscope/Src
+```
+And run the following program
+```
+python /home/pi/vibscope/Src/g.py
+``` 
+To run the program for realtime MPU6050 accerleometer readings and graph, open the *Src/live* folder
+``` 
+python /home/pi/vibscope/Src/live/record.py
+``` 
+To run the program for realtime logging MPU6050 accerleometer readings and graph, open the *Src/log* folder
+``` 
+python /home/pi/vibscope/Src/log/Start.py
+``` 
+To run the program for Vibrational analysis MPU6050 accerleometer readings and graph, open the *Src/Vibrational Analysis* folder
+``` 
+python /home/pi/vibscope/Src/Vibrational analysis/MPU.py
+``` 
 
+**Note** use your own Pi IP address that you found with [Angry IP Scanner](https://angryip.org/download/)
 
 ## Code Examples
 Python implementation of RMS time plot
