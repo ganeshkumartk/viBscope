@@ -240,6 +240,7 @@ Check out the Snaps from [here](https://drive.google.com/open?id=1brYf8YWGJxZcrr
      Ganesh Kumar T K (MSM17B034)
      Dhilipan S (MSM17B002)
      Chandralekha R (MSM17B027)
+     Ext. Avital Bhaptakri (3rd Yr, Mech, NIT Raipur)
 
 ## Contact
 Created by [@coderganesh](https://github.com/CoDeRgAnEsH) - feel free to contact me!
