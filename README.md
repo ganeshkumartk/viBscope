@@ -32,7 +32,8 @@ DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR 
 * To analyze vibration parameters in order to predict and prevent possible accidents, thus reducing the costs associated with the failure of the cutting tools, expensive parts and assemblies of the CNC machine.
 
 ## Screenshots
-![Example screenshot](./Resources/vibrationanalyzer-slider.jpg)
+![Example screenshot](./Resources/Screenshot_2.png)
+![Example screenshot](./Resources/Screenshot_3.png)
 
 ## LabVIEW UI
 ![LabVIEW implementation](./LabVIEW/5.PNG)
