@@ -85,7 +85,7 @@ network={
 Where *YOUR_SSID* and *YOUR_PASSWORD* are the SSID and Password of your WiFi router.
 
 This is what your /boot directory should look like now
-<img src="/Resources/ssh_wpa.jpg" alt="Boot directory">
+<img src="/Resources/Inkedssh_wpa_LI.jpg" alt="Boot directory">
 
 The Raspberry Pi Zero W on boot will read these two files and automatically enable the SSH server and connect it to your WiFi router.
 
