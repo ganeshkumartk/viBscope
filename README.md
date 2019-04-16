@@ -8,7 +8,7 @@
 # Vibrational Analyser
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
-//Done as a course project MEC320T - Sensors & Control//
+//Done as a course project//
 ![Example screenshot](./Resources/20190409_160852.jpg)
 
 
