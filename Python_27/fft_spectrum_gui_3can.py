@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: cp1252 -*-
-# Program fft_spectrum_gui_3can.py   ¡¡¡ OK !!!
+# Program fft_spectrum_gui_3can.py   Â¡Â¡Â¡ OK !!!
 # - Corrected g_scale.
 # - g_scale = (Vref / ADC resolution) * (300 mv/g)
 # - Error noted and corrected by Steve Ferry.
 # 08/02/2019
 # Program fft_spectrum_gui.py modification:
 # - 3 canales de datos (3 ejes)
-# - Trabaja con programa adxl335_3can_01.c en atmega328
+# - Program for adxl335_3can_01.c en atmega328
 # 15/02/2019
 # Program fft_spectrum_gui.py 
 # - Based on program frame_tab_plot_07.py
@@ -283,7 +283,7 @@ class Application:
             else:
                 estado_serial = False
         except (serial.SerialException, ValueError) as ex:
-            #print "Can´t open serial port: " + str(ex)
+            #print "CanÂ´t open serial port: " + str(ex)
             tkMessageBox.showerror( "Result", "Can't open serial port: " + str(ex))
 
         if (estado_serial == True):
@@ -348,7 +348,7 @@ class Application:
                         conta_datos_rx += 1 ;
                         #print("conta_datos_rx =  %s" %conta_datos_rx)
 
-                #time.sleep(0.001)   #Sin esta línea, el programa consume 90% de recursos CPU    
+                #time.sleep(0.001)   #Sin esta lÃ­nea, el programa consume 90% de recursos CPU    
                 #Cuando la velocidad del puerto serial es alta y se recibe una gran cantidad 
                 #de datos, time.sleep() impone un tiempo demasiado largo.
 
