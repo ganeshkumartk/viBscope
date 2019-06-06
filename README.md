@@ -9,6 +9,9 @@
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
 
 ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
+![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
 
 //Done as a course project//
 ![Example screenshot](./Resources/20190409_160852.jpg)
