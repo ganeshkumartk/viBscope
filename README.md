@@ -1,6 +1,7 @@
 <h1 align="center"> VibScope </h1> <br>
 <p align="center">
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
+	  [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
   </a>
 </p>
 
