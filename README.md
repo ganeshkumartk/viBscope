@@ -1,13 +1,14 @@
 <h1 align="center"> VibScope </h1> <br>
-<p align="center">
+<p align="center"> 
   <a href="https://github.com/CoDeRgAnEsh/viBscope">
-	  [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
   </a>
 </p>
 
 
 # Vibrational Analyser
 DEVELOPMENT OF IoT BASED VIBRATION MONITORING AND SPECTRUM ANALYSIS SYSTEMS FOR TECHNICAL OBJECTS
+
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 
 //Done as a course project//
 ![Example screenshot](./Resources/20190409_160852.jpg)
